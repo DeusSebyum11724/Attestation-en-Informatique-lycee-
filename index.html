@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content='Colegiul National "Scoala Centrala" | Clasa a XI-a E - Atestat Informatica 2022'>
+    <meta name="author" content="Brisan Andrei Sebastian, Mincu Mircea, Popescu Miruna">
+    <link rel="icon" href="assets/icon.png">
+    <title>Atestat Informatica</title>
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">    
+    <link href="css/atestat.css" rel="stylesheet">
+  </head>
+  
+  <body>
+
+      <!-- Header -->
+      <div class="container">
+        <header class="blog-header lh-1 py-3">
+          <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-4 pt-1">
+              <a class="link-secondary" href="http://cnscb.ro">C.N. "Scoala Centrala"</a>
+            </div>
+            
+            <div class="col-4 d-flex justify-content-end align-items-center">
+              
+              <div class="dropdown">
+                <button class="dropbtn">Europass EN</button>
+                <div class="dropdown-content">
+                  <a href="assets/europass/Europass EN.pdf" target="_blank">CV 1 - Brisan</a>
+                  <a href="assets/europass/CV Mincu Mircea.pdf" target="_blank">CV 2 - Mincu</a>
+                  <a href="#" target="_blank">CV 3 - Popescu</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Europass FR</button>
+                <div class="dropdown-content">
+                  <a href="assets/europass/Europass FR.pdf" target="_blank">CV 1 - Brisan</a>
+                  <a href="#" target="_blank">CV 2 - Mincu</a>
+                  <a href="#" target="_blank">CV 3 - Popescu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+      </div>
+      
+      <!-- Main Card -->
+      <main class="container">
+        <div class="row p-4 p-md-5 mb-2 text-white rounded bg-black" >
+          <div class="col-md-6 px-0">
+            <h1>Teoria Fractalilor in Programarea Recursiva</h1>
+            <br>
+            <p><i>"Monștri patologici! strigă matematicianul îngrozit <br>
+              Fiecare dintre ei o așchie în ochiul meu <br>
+              Urăsc Spațiul Peano și Curba Koch <br>
+              Mă tem de Multimea lui Cantor<br>
+              Triunghiul lui Sierpinski mă face să plâng <br>
+              Și la un milion de mile depărtare un fluture batea din aripi <br>
+              Într-o zi rece de noiembrie s-a născut un bărbat pe nume Benoit Mandelbrot” </i><br>
+              <b>- Jonathan Coulton, versuri din „Mandelbrot Set”</b></p>
+              <audio controls class="audio">
+                <source src="assets/mandelbrot.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+          </div>
+          <div class="col-md-6 px-0">
+            <img class="frctl" src="assets/fractali.png">
+          </div>
+        </div>
+        <br>
+         <!-- Card Grile si Probleme -->
+         <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">Grile</strong>
+                <p class="card-text mb-auto">Consolideaza-ti cunostiintele cu un test de 30 de grile din recursivitate!</p>
+                <a href="grile/Grile.html" class="stretched-link">Incepe testul</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img src="assets/tb1.png" class="bd-placeholder-img" width="200" height="250">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success">Probleme</strong>
+                <p class="mb-auto">Dezvolta-ti skill-urile de programator cu 4 probleme din recursivitate.</p>
+                <a href="probleme/probleme.html" class="stretched-link">Rezolva problemele</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <img class="bd-placeholder-img bg-white" src="assets/tb2.png" width="200" height="250">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+       <!-- Articole -->
+
+        <div class="row g-5">
+          
+        <div class="col-md-8">
+          <article class="blog-post">
+            <br>
+
+        <!-- Articol Introductiv -->
+        <hr>
+        <h2 class="blog-post-title mb-1">Ce este un fractal?</h2>
+        <br>
+        <p>Termenul fractal (din latinescul fractus) a fost inventat de matematicianul Benoit Mandelbrot în 1975. În lucrarea sa fundamentală „The Fractal Geometry of Nature”, el definește un fractal ca „o formă geometrică aspră sau fragmentată care poate să fie împărțit în părți, fiecare dintre acestea fiind (cel puțin aproximativ) o copie la dimensiune redusă a întregului.”</p>
+        <div class="row">
+            <img class="frctl" src="assets/mandelbrot.png"> 
+        </div>
+        <br>
+        <p>Un fractal ca obiect geometric are în general următoarele caracteristici:</p>
+        <ul>
+          <li>structură fină la scări mici</li>
+          <li>este prea neregulat pentru a fi descris cu ușurință în limbajul geometric euclidian tradițional</li>
+          <li>este auto-similar (cel puțin aproximativ sau stocastic)</li>
+          <li>are o definiție simplă și recursivă</li>
+        </ul>
+        <p>Datorită faptului că par similare la toate nivelurile de mărire, fractalii sunt adesea considerați a fi „infinit de complexi”. Exemplele evidente includ nori, lanțuri muntoase și fulgere. Cu toate acestea, nu toate obiectele similare sunt fractali - de exemplu, linia reală (o linie euclidiană dreaptă) este în mod formal similară, dar nu reușește să aibă alte caracteristici fractale.</p>
+        <hr>
+
+        
+        <!-- Articol Setul Mandelbrot -->
+        <h2>Setul Mandelbrot</h2>
+        <p>Mulțimea lui Mandelbrot este un fractal care a devenit cunoscut în afara matematicii atât pentru estetica sa, cât și pentru structura complicată, care are la bază o definiție simplă. Acest lucru se datorează în mare parte eforturilor lui Benoît Mandelbrot și ale altora de a populariza acest domeniu al matematicii.</p>
+        <p>Mulțimea lui Mandelbrot se definește ca fiind mulțimea acelor puncte c din planul complex pentru care aplicând în mod repetat polinomul complex z^2 + c (pornind de la z = 0) rezultatul rămâne în interiorul unui disc de rază finită.</p>
+        <div class="row">
+          <img src="assets/mandelbrot.gif">
+        </div>
+        <hr>
+
+        <!-- Articol Recursivitate -->
+        <h2>Recursivitate</h2>
+        <p>Si începem discuția noastră despre recursivitate examinând prima apariție a fractalilor în matematica modernă. În 1883, matematicianul german George Cantor a dezvoltat reguli simple pentru a genera un set infinit:</p>
+        <div class="row">
+          <img src="assets/cantor.png">
+        </div>
+        <p>În 1968, botanistul maghiar Aristid Lindenmayer a dezvoltat un sistem bazat pe gramatică pentru a modela modelele de creștere ale plantelor. Sistemele L (prescurtare de la sistemele Lindenmayer) pot fi folosite pentru a genera toate modelele fractale recursive. Sunt incredibil de utile, deoarece oferă un mecanism de urmărire a structurilor fractale care necesită reguli complexe de producție.</p>
+        <p>Un Sistem L implică trei componente principale:</p>
+          <ol>
+            <li><b>Alfabet</b> - Alfabetul unui Sistem L este format doar din caracterele care sunt incluse. De exemplu, am putea spune că alfabetul este „ABC”, ceea ce înseamnă că orice „propoziție” validă (un șir de caractere) dintr-un sistem L poate include doar aceste trei caractere.</li>
+            <li><b>Axiomă</b> - Axioma este o propoziție (alcătuită din caractere din alfabet) care descrie starea inițială a sistemului. De exemplu, cu alfabetul „ABC”, unele exemple de axiome sunt „AAA” sau „B” sau „ACBAB”.</li>
+            <li><b>Reguli</b> - Regulile unui sistem L sunt aplicate axiomei și apoi aplicate recursiv, generând noi propoziții din nou și din nou. O regulă a sistemului L include două propoziții, un „predecesor” și un „succesor”. De exemplu, cu regula „A —> AB”, ori de câte ori „A” este găsit într-un șir, acesta este înlocuit cu „AB”.</li>
+          </ol>
+        <p>Exemplu:</p>
+            <pre>
+              <b>
+            Alfabet: A B
+            Axioma: A
+            Reguli: (A->ABA) (B->BBB)
+
+            Generare 0: A
+            Generare 1: ABA
+            Generare 2: ABABBBABA
+            Generare 3: ABABBBABABBBBBBBBBABABBBABA
+              </b>
+          Pentru a citi o propoziție, o vom traduce în felul următor:
+              <b>
+            A - Desenăm o linie dreaptă.
+            B - Înaintăm fără să desenăm.
+              </b>
+          Acesta este setul Cantor generat cu un Sistem L.
+              </pre>
+          <div class="row">
+            <img class="frctl" src="assets/cantor-recursiv.png">
+          </div>
+          <p>Deoarece regulile sunt aplicate recursiv fiecărei generații, lungimea șirului crește exponențial. După generația #5, propoziția are peste 300 de caractere; după generația #20, are peste 100.000 de caractere.</p>
+        <hr>
+        <h3>Aplicații ale fractalilor</h3>
+          <p>Ideea de bază a fractalilor este de a găsi regularități în neregulile existente. Mai jos sunt prezentate câteva aplicații ale fractalilor:</p>
+            <ul>
+              <li>Compresia imaginii este utilizată în informatică, pe baza geometriei fractale. Prin utilizarea acestei tehnici, imaginea este mult mai comprimată în comparație cu JPEG, GIF, etc. De asemenea, nu există pixelizare atunci când imaginea este mărită.</li>
+              <li>Pentru a ușura studiul fluxurilor turbulente, se utilizează reprezentarea fractală. De asemenea, fractalii sunt folosiți pentru a reprezenta mediile poroase care sunt folosite în știința petrolului.</li>
+              <li>Recent au fost folosite antene în formă de fractal care ajută la reducerea dimensiunii și greutății antenelor și oferă performanțe ridicate.</li>
+            </ul>
+        </div>
+
+        <!-- Resurse -->
+        <div class="col-md-4">
+          <div class="position-sticky" style="top: 2rem;">
+            <div class="p-4 mb-3 bg-light rounded">
+              <h4 class="fst-italic">Resurse</h4>
+              <hr>
+              <ul>
+              <li><b>Suport Tehnic:</b></li>
+              <iframe src="assets/Document Atestat A4.pdf#toolbar=0" width="auto" height="400"></iframe>
+              <li><b>Solutii grile si probleme:</b></li>
+                <a href="assets/raspunsuri.pdf" target="_blank" download="raspunsuri.pdf"><button class="btn">.pdf</button></a>
+              <li><b>Cod Sursa:</b></li>
+              <a href="index.txt" download="home" target="_blank">Blog - HyperText Markup Language</a><br>
+              <a href="css/atestat.css" download="css" target="_blank">Blog - Cascading Style Sheets</a><br>
+              <a href="grile/grile.txt" download="html" target="_blank"> Grile - HyperText Markup Language</a><br>
+              <a href="grile/js/scripts.js" download="script" target="_blank"> Grile - JavaScript</a><br>
+              <a href="probleme/probleme.txt" download="html" target="_blank"> Probleme - HyperText Markup Language</a><br>
+              <a href="probleme/js/scripts.js" download="script" target="_blank"> Probleme - JavaScript</a><br>
+              </ul>
+              <p class="mb-0">In realizarea blog-ului, am utilizat informatii, poze si elemente de template din urmatoarele surse: The Nature of Code | Geeksforgeeks | Bootstrap </p>
+            </div>
+          </div>
+        </div>
+        <hr>
+      </main>
+
+    <footer class="blog-footer">
+      <p>Clasa a XII-a E mate-info | <a href="https://cnscb.ro">Colegiul National "Scoala Centrala" 2022-2023</a></p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+        
+      </body>
+</html>

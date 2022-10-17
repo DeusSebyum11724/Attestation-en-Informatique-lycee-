@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content='Colegiul National "Scoala Centrala" | Clasa a XI-a E - Atestat Informatica 2022'>
+    <meta name="author" content="Brisan Andrei Sebastian, Mincu Mircea, Popescu Miruna">
+    <link rel="icon" href="assets/icon.png">
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Probleme</title>
+  </head>
+  <style>
+.site{
+    height:60%;
+    position:absolute;
+    bottom:0px;
+    left:0px;}
+
+.lead{
+  text-align: justify;
+  padding-left: 50px;
+  padding-right: 150px;
+}
+.btn{
+  margin-left: 20px;
+  float:left;
+}
+
+  </style>
+  <body>
+    
+    <iframe class="site" src="https://www.online-cpp.com/" width="100%" title="Iframe Example"></iframe>
+
+      <div id="test"></div>
+      <div id="test_status"></div>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>

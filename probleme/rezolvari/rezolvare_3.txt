@@ -1,0 +1,6 @@
+int stergimp(int n)
+{
+    if(n==0) return 0;
+    else if(n%2==1) return stergimp(n/10);
+         else return stergimp(n/10)*10+n%10;
+}

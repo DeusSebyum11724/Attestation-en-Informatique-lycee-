@@ -1,0 +1,23 @@
+Rezolvare:
+void cifre(int n, int &p, int &i)
+{
+  if(n<=9)
+    if(n%2==0)
+    {
+      p=n;
+      i=0;
+    }
+    else 
+    { 
+      p=0; 
+      i=n; 
+    }
+    else 
+    { 
+      cifre(n/10,p,i);
+    if(n%2==0)
+      p=p*10+n%10;
+    else 
+      i=i*10+n%10;
+    }
+}
